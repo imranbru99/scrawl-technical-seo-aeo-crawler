@@ -1,0 +1,24 @@
+{
+  "name": "scrawl-technical-seo-aeo-crawler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Open-source crawler that generates a complete SEO, AEO and technical SEO audit report: scored, prioritized, and CI-ready.",
+  "author": "Scrawl Contributors",
+  "license": "MIT",
+  "packageManager": "pnpm@12.11.2",
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md}\"",
+    "clean": "turbo run clean"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "prettier": "^3.5.3",
+    "turbo": "^2.4.4",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  }
+}

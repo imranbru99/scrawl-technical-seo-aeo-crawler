@@ -1,0 +1,24 @@
+{
+  "name": "@scrawl/core",
+  "version": "1.0.0",
+  "description": "High-performance crawling engine, link graph, scheduler, and parser for Scrawl",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@scrawl/config": "workspace:*",
+    "@scrawl/shared": "workspace:*",
+    "@scrawl/storage": "workspace:*",
+    "cheerio": "^1.0.0",
+    "undici": "^7.5.0"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  }
+}

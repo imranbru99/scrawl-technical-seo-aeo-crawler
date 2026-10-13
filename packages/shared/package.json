@@ -1,0 +1,19 @@
+{
+  "name": "@scrawl/shared",
+  "version": "1.0.0",
+  "description": "Shared types, utilities, constants and logger for Scrawl",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  }
+}
